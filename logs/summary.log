@@ -1,0 +1,103 @@
+[08-09 00:11:39] p23998 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-09 14:57:05] p2709 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-09 14:57:05] p2709 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[08-09 15:17:37] p5428 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-09 15:17:37] p5428 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[08-15 11:34:29] p2600 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-15 11:34:29] p2600 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[08-15 11:34:39] p2703 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-15 11:34:39] p2703 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-13 08:25:13] p4525 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-13 08:25:13] p4525 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-16 13:21:48] p17264 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:21:49] p17264 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-16 13:22:15] p17264 {/home/prophet/.local/lib/python3.6/site-packages/flask/app.py:1891} ERROR - Exception on /inference [POST]
+Traceback (most recent call last):
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: table validated has no column named verified
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 38, in inference
+    db.session.commit()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2496, in flush
+    self._flush(objects)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2597, in _flush
+    flush_context.execute()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) table validated has no column named verified
+[SQL: INSERT INTO validated (date, param1, param2, param3, param4, param5, param6, desired, verified) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('2020-10-16 13:22:15.660998', 0.0, 100.0, 100.0, 90.0, 0.0, 10.0, 8.890828540165776, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[10-16 13:23:18] p17652 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:23:18] p17652 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-16 13:23:27] p17672 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:23:27] p17672 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-16 13:24:38] p17870 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:24:38] p17870 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-17 19:06:29] p9451 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-17 19:06:29] p9451 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-17 19:22:19] p13764 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-17 19:22:19] p13764 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-17 19:24:23] p14157 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-17 19:24:23] p14157 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-17 19:24:36] p14194 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-18 02:40:50] p2749 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-18 02:40:50] p2749 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-18 02:40:58] p2770 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-18 02:40:58] p2770 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-18 02:42:49] p3198 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-18 02:42:49] p3198 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly

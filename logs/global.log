@@ -1,0 +1,340 @@
+[08-09 00:11:39] p23998 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-08-09 00:11:39,466] p23998 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-08-09 00:11:39,573] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-08-09 00:15:42,415] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:15:42] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:17:29,699] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:17:29] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:24:06,832] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:24:06] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:25:40,078] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:25:40] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:25:42,517] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:25:42] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:27:06,368] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:27:06] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:27:28,405] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:27:28] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:27:43,199] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:27:43] "[1m[31mGET /inference HTTP/1.1[0m" 405 -
+[2020-08-09 00:27:43,245] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:27:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2020-08-09 00:27:46,941] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:27:46] "[1m[31mGET /inference HTTP/1.1[0m" 405 -
+[2020-08-09 00:28:52,448] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:28:52] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:40:24,748] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:40:24] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:40:34,358] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:40:34] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:40:39,293] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:40:39] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:40:45,166] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:40:45] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:40:50,141] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:40:50] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:40:57,306] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:40:57] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:41:02,212] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:41:02] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:41:06,569] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:41:06] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:41:11,030] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 00:41:11] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:44:40,240] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 192.168.1.3 - - [09/Aug/2020 00:44:40] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:44:49,615] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 192.168.1.3 - - [09/Aug/2020 00:44:49] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[2020-08-09 00:44:50,150] p23998 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 192.168.1.3 - - [09/Aug/2020 00:44:50] "[37mOPTIONS /inference HTTP/1.1[0m" 200 -
+[08-09 14:57:05] p2709 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-08-09 14:57:05,807] p2709 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-09 14:57:05] p2709 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-08-09 14:57:05,818] p2709 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-08-09 14:57:05,831] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-08-09 14:57:57,301] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 14:57:57] "[1m[31mPOST /inference HTTP/1.1[0m" 400 -
+[2020-08-09 14:58:11,923] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 14:58:11] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 14:59:08,394] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 14:59:08] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-08-09 14:59:52,790] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 14:59:52] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:00:02,725] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:00:02] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:00:08,587] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:00:08] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:00:12,618] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:00:12] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:00:27,219] p2709 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:00:27] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[08-09 15:17:37] p5428 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-08-09 15:17:37,433] p5428 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-09 15:17:37] p5428 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-08-09 15:17:37,443] p5428 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-08-09 15:17:37,451] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-08-09 15:31:12,361] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:31:12] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:31:41,458] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:31:41] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:32:05,361] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:32:05] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-08-09 15:32:16,263] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:32:16] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:34:24,086] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:34:24] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:39:13,093] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:39:13] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:40:42,960] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:40:42] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-08-09 15:40:51,056] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:40:51] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-08-09 15:41:02,133] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:41:02] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-08-09 15:41:12,934] p5428 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [09/Aug/2020 15:41:12] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[08-15 11:34:29] p2600 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-08-15 11:34:29,896] p2600 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-15 11:34:29] p2600 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-08-15 11:34:29,908] p2600 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[08-15 11:34:39] p2703 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-08-15 11:34:39,416] p2703 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[08-15 11:34:39] p2703 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-08-15 11:34:39,426] p2703 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-13 08:25:13] p4525 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-13 08:25:13,045] p4525 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-13 08:25:13] p4525 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-13 08:25:13,056] p4525 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-13 08:25:13,066] p4525 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-10-13 08:25:18,652] p4525 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [13/Oct/2020 08:25:18] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-13 08:25:40,405] p4525 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [13/Oct/2020 08:25:40] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-13 08:25:50,200] p4525 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [13/Oct/2020 08:25:50] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[10-16 13:21:48] p17264 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-16 13:21:48,988] p17264 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:21:49] p17264 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-16 13:21:49,009] p17264 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-16 13:21:49,024] p17264 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[10-16 13:22:15] p17264 {/home/prophet/.local/lib/python3.6/site-packages/flask/app.py:1891} ERROR - Exception on /inference [POST]
+Traceback (most recent call last):
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: table validated has no column named verified
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 38, in inference
+    db.session.commit()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2496, in flush
+    self._flush(objects)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2597, in _flush
+    flush_context.execute()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) table validated has no column named verified
+[SQL: INSERT INTO validated (date, param1, param2, param3, param4, param5, param6, desired, verified) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('2020-10-16 13:22:15.660998', 0.0, 100.0, 100.0, 90.0, 0.0, 10.0, 8.890828540165776, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-10-16 13:22:15,712] p17264 {/home/prophet/.local/lib/python3.6/site-packages/flask/app.py:1891} ERROR - Exception on /inference [POST]
+Traceback (most recent call last):
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: table validated has no column named verified
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/prophet/.local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 38, in inference
+    db.session.commit()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2496, in flush
+    self._flush(objects)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2637, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 69, in __exit__
+    exc_value, with_traceback=exc_tb,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2597, in _flush
+    flush_context.execute()
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/prophet/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) table validated has no column named verified
+[SQL: INSERT INTO validated (date, param1, param2, param3, param4, param5, param6, desired, verified) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('2020-10-16 13:22:15.660998', 0.0, 100.0, 100.0, 90.0, 0.0, 10.0, 8.890828540165776, 0)]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-10-16 13:22:15,747] p17264 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:22:15] "[1m[35mPOST /inference HTTP/1.1[0m" 500 -
+[10-16 13:23:18] p17652 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-16 13:23:18,635] p17652 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:23:18] p17652 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-16 13:23:18,645] p17652 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-16 13:23:27] p17672 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-16 13:23:27,531] p17672 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:23:27] p17672 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-16 13:23:27,541] p17672 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-16 13:23:27,552] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-10-16 13:23:31,005] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:31] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:36,540] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:36] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:37,483] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:37] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:38,227] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:38] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:38,815] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:38] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:39,268] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:39] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:39,609] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:39] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:39,757] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:39] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:39,921] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:39] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:40,066] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:40] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:23:40,218] p17672 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:23:40] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[10-16 13:24:38] p17870 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-16 13:24:38,886] p17870 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-16 13:24:38] p17870 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-16 13:24:38,899] p17870 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-16 13:24:38,910] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-10-16 13:24:43,250] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:24:43] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:24:44,649] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:24:44] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:24:48,551] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:24:48] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:24:56,945] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:24:56] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:25:05,105] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:25:05] "[1m[31mPOST /inference HTTP/1.1[0m" 400 -
+[2020-10-16 13:25:13,475] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:25:13] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-16 13:25:26,562] p17870 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [16/Oct/2020 13:25:26] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[10-17 19:06:29] p9451 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-17 19:06:29,010] p9451 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-17 19:06:29] p9451 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-17 19:06:29,022] p9451 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-17 19:06:29,036] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-10-17 19:06:49,362] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:06:49] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:06:54,953] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:06:54] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:06:55,925] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:06:55] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:06:56,727] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:06:56] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:07:32,682] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:07:32] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:07:48,369] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:07:48] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:07:52,336] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:07:52] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:07:53,278] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:07:53] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:07:53,896] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:07:53] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:07:54,436] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:07:54] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:07:54,747] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:07:54] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:08:12,707] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:08:12] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:08:17,839] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:08:17] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:19,850] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:19] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:20,321] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:20] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:20,892] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:20] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:21,387] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:21] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:21,762] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:21] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:22,018] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:22] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:22,455] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:22] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:22,659] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:22] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:22,859] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:22] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:23,013] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:23] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:23,185] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:23] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:23,345] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:23] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:23,502] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:23] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:23,648] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:23] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:23,804] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:23] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:24,537] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:24] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:09:24,708] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:09:24] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:27,948] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:27] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:28,196] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:28] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:28,398] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:28] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:28,668] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:28] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:28,915] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:28] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:29,207] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:29] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:29,453] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:29] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:29,624] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:29] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:29,979] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:29] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:30,261] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:30] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:30,494] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:30] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:30,769] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:30] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:20:30,955] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:20:30] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-17 19:21:37,166] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:21:37] "[1m[31mPOST /validate HTTP/1.1[0m" 400 -
+[2020-10-17 19:21:46,525] p9451 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:21:46] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[10-17 19:22:19] p13764 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-17 19:22:19,908] p13764 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-17 19:22:19] p13764 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-17 19:22:19,919] p13764 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-17 19:22:19,931] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-10-17 19:22:23,163] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:22:23] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:22:24,193] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:22:24] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:22:35,824] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:22:35] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:22:42,810] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:22:42] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:22:51,038] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:22:51] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:23:02,993] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:23:02] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:23:15,738] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:23:15] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:23:21,571] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:23:21] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-17 19:23:27,694] p13764 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [17/Oct/2020 19:23:27] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[10-17 19:24:23] p14157 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-17 19:24:23,157] p14157 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-17 19:24:23] p14157 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-17 19:24:23,168] p14157 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-17 19:24:36] p14194 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-17 19:24:36,443] p14194 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-17 19:24:36,548] p14194 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[10-18 02:40:50] p2749 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-18 02:40:50,428] p2749 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-18 02:40:50] p2749 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-18 02:40:50,440] p2749 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[10-18 02:40:58] p2770 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-18 02:40:58,837] p2770 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-18 02:40:58] p2770 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-18 02:40:58,850] p2770 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-18 02:40:58,863] p2770 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2020-10-18 02:41:18,968] p2770 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [18/Oct/2020 02:41:18] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-18 02:41:27,079] p2770 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [18/Oct/2020 02:41:27] "[37mPOST /validate HTTP/1.1[0m" 200 -
+[2020-10-18 02:41:38,616] p2770 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [18/Oct/2020 02:41:38] "[33mPOST /infetence HTTP/1.1[0m" 404 -
+[2020-10-18 02:41:45,570] p2770 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [18/Oct/2020 02:41:45] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-18 02:41:49,822] p2770 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [18/Oct/2020 02:41:49] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[2020-10-18 02:41:50,513] p2770 {/home/prophet/.local/lib/python3.6/site-packages/werkzeug/_internal.py:122} INFO - 127.0.0.1 - - [18/Oct/2020 02:41:50] "[37mPOST /inference HTTP/1.1[0m" 200 -
+[10-18 02:42:49] p3198 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[2020-10-18 02:42:49,199] p3198 {/home/prophet/projects/credit-guarantee-evaluation/log.py:23} INFO - Logging is set up.
+[10-18 02:42:49] p3198 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly
+[2020-10-18 02:42:49,209] p3198 {/home/prophet/projects/credit-guarantee-evaluation/model.py:44} INFO - Model loaded successfuly

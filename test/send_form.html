@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title> 
+      JavaScript | Sending JSON data to server. 
+    </title> 
+  </head> 
+  
+  <body style="text-align:center;" id="body"> 
+    <h1 style="color:green;"> 
+      Inference 
+    </h1> 
+  
+    <p> 
+        <!-- Making a text input -->
+        <input type="number" id="iparam1" placeholder="param1"> 
+        <input type="number" id="iparam2" placeholder="param2"> 
+        <input type="number" id="iparam3" placeholder="param3"> 
+        <input type="number" id="iparam4" placeholder="param4"> 
+        <input type="number" id="iparam5" placeholder="param5"> 
+        <input type="number" id="iparam6" placeholder="param6"> 
+          
+        <!-- Button to send data -->
+        <button onclick="inference()">Send request</button> 
+      
+   </p> 
+   <h1 style="color:green;"> 
+    Validate
+  </h1> 
+
+  <p> 
+      <!-- Making a text input -->
+      <input type="number" id="vparam1" placeholder="param1"> 
+      <input type="number" id="vparam2" placeholder="param2"> 
+      <input type="number" id="vparam3" placeholder="param3"> 
+      <input type="number" id="vparam4" placeholder="param4"> 
+      <input type="number" id="vparam5" placeholder="param5"> 
+      <input type="number" id="vparam6" placeholder="param6">
+      <br>
+      <input type="number" id="desired" placeholder="Desired value">
+        
+      <!-- Button to send data -->
+      <button onclick="validate()">Send request</button> 
+
+    <!-- For printing result from server -->
+    <p class="result" style="color:green"></p> 
+    
+ </p> 
+  <!-- Include the JavaScript file -->
+  <script>
+      function inference(){ 
+               
+               let result = document.querySelector('.result'); 
+               let param1 = document.querySelector('#iparam1'); 
+               let param2 = document.querySelector('#iparam2'); 
+               let param3 = document.querySelector('#iparam3'); 
+               let param4 = document.querySelector('#iparam4'); 
+               let param5 = document.querySelector('#iparam5'); 
+               let param6 = document.querySelector('#iparam6'); 
+                  
+               // Creating a XHR object 
+               let xhr = new XMLHttpRequest(); 
+               let url = "http://192.168.1.3:5000/inference"; 
+           
+               // open a connection 
+               xhr.open("POST", url, true); 
+     
+               // Set the request header i.e. which type of content you are sending 
+               xhr.setRequestHeader("Content-Type", "application/json");
+               xhr.setRequestHeader('Access-Control-Allow-Origin','*');
+     
+               // Create a state change callback 
+               xhr.onreadystatechange = function () { 
+                   if (xhr.readyState === 4 && xhr.status === 200) { 
+     
+                       // Print received data from server 
+                       result.innerHTML = this.responseText; 
+     
+                   } 
+               }; 
+     
+               // Converting JSON data to string 
+               var data = JSON.stringify({ "id": "some-id-here", "data":
+                                                                        {
+                                                                          "param1": param1.value,
+                                                                          "param2": param2.value,
+                                                                          "param3": param3.value,
+                                                                          "param4": param4.value,
+                                                                          "param5": param5.value,
+                                                                          "param6": param6.value
+                                                                        } }); 
+     
+               // Sending data with the request 
+               xhr.send(data); 
+           }
+           
+           function validate(){ 
+               
+            let result = document.querySelector('.result'); 
+               let param1 = document.querySelector('#vparam1'); 
+               let param2 = document.querySelector('#vparam2'); 
+               let param3 = document.querySelector('#vparam3'); 
+               let param4 = document.querySelector('#vparam4'); 
+               let param5 = document.querySelector('#vparam5'); 
+               let param6 = document.querySelector('#vparam6');
+               let desired = document.querySelector('#desired');
+                  
+               // Creating a XHR object 
+               let xhr = new XMLHttpRequest(); 
+               let url = "http://localhost:5000/validate"; 
+           
+               // open a connection 
+               xhr.open("POST", url, true); 
+     
+               // Set the request header i.e. which type of content you are sending 
+               xhr.setRequestHeader("Content-Type", "application/jsonp"); 
+     
+               // Create a state change callback 
+               xhr.onreadystatechange = function () { 
+                   if (xhr.readyState === 4 && xhr.status === 200) { 
+     
+                       // Print received data from server 
+                       result.innerHTML = this.responseText; 
+     
+                   } 
+               }; 
+     
+               // Converting JSON data to string 
+               var data = JSON.stringify({ "id": "some-id-here", "data":
+                                                                        {
+                                                                          "param1": param1.value,
+                                                                          "param2": param2.value,
+                                                                          "param3": param3.value,
+                                                                          "param4": param4.value,
+                                                                          "param5": param5.value,
+                                                                          "param6": param6.value,
+                                                                          "desired": desired.value
+                                                                        } }); 
+     
+               // Sending data with the request 
+               xhr.send(data); 
+           } 
+  </script> 
+  
+  </body> 
+</html> 
